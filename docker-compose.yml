@@ -37,6 +37,7 @@ services:
       retries: 5
     ports:
       - "13306:3306"
+      - "5173:5173"
     environment:
       # Database ini akan dibuat saat kontainer pertama kali dijalankan
       MYSQL_DATABASE: ${PROJECT_NAME}
