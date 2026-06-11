@@ -11,11 +11,29 @@ class ExperienceSeeder extends Seeder
     {
         Experience::insert([
             [
-                'company' => 'PT Contoh Indonesia',
-                'position' => 'Web Developer Intern',
+                'company' => 'Freelance',
+                'position' => 'Laravel Developer',
                 'start_date' => '2024-01-01',
-                'end_date' => '2024-06-30',
-                'description' => 'Mengembangkan aplikasi web menggunakan Laravel dan Filament.',
+                'end_date' => null,
+                'description' => 'Mengembangkan aplikasi berbasis Laravel, Filament V3, Livewire, dan MariaDB.',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'company' => 'Academic Project',
+                'position' => 'Fullstack Developer',
+                'start_date' => '2024-06-01',
+                'end_date' => '2024-12-31',
+                'description' => 'Membangun sistem informasi akademik menggunakan Laravel dan Bootstrap.',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'company' => 'Personal Project',
+                'position' => 'Backend Developer',
+                'start_date' => '2025-01-01',
+                'end_date' => null,
+                'description' => 'Membangun REST API, autentikasi, dan integrasi payment gateway menggunakan Laravel.',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],

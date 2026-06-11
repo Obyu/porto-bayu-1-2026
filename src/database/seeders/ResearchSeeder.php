@@ -20,6 +20,24 @@ class ResearchSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
+            [
+                'title' => 'Pemanfaatan Filament Admin Panel untuk Pengembangan Sistem Informasi',
+                'slug' => Str::slug('Pemanfaatan Filament Admin Panel untuk Pengembangan Sistem Informasi'),
+                'abstract' => 'Analisis efektivitas Filament sebagai admin panel modern pada framework Laravel.',
+                'journal' => 'Jurnal Sistem Informasi',
+                'publication_date' => '2025-06-01',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'title' => 'Implementasi Livewire dalam Membangun Aplikasi Reactive',
+                'slug' => Str::slug('Implementasi Livewire dalam Membangun Aplikasi Reactive'),
+                'abstract' => 'Penelitian mengenai penggunaan Livewire untuk meningkatkan interaktivitas aplikasi Laravel.',
+                'journal' => 'Jurnal Informatika Modern',
+                'publication_date' => '2025-08-01',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
         ]);
     }
 }
